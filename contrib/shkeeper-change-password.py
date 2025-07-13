@@ -6,7 +6,7 @@
 import bcrypt, sqlite3, getpass, os, glob
 
 
-PVC_PATH="/var/lib/rancher/k3s/storage/pvc-d8776ce1-0073-41c6-844f-f5002dfcebc9_shkeeper_shkeeper-db-claim"
+PVC_PATH="/var/lib/rancher/k3s/storage/pvc-296c2be5-01ad-447a-8675-69307034c89d_shkeeper_shkeeper-db-claim"
 
 DB_PATH=f"{PVC_PATH}/shkeeper.sqlite"
 SESSIONS_PATH=f"{PVC_PATH}/flask_session"
